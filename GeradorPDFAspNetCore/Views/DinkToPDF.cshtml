@@ -1,0 +1,85 @@
+﻿@model GeradorPDFAspNetCore.Models.GerarContratoViewModel
+@{
+    ViewData["Title"] = "Dink to PDF";
+}
+<style>
+    p {
+        text-align: justify;
+        font-size: 12pt;
+        font-family: Arial, sans-serif;
+    }
+</style>
+
+@{
+    var urlBanese = $"{@Model.UrlBase}/Assets/banese.png";
+}
+
+<div>
+    <img style="vertical-align:middle" src="http://lorempixel.com/60/60/">
+    <span style="vertical-align:middle">Perfectly centered</span>
+</div>
+
+<div>
+    <img style="vertical-align:middle" src="@urlBanese" />
+    <span style="vertical-align:middle;font-size:14pt"><b>Proposta de Contrato</b></span>
+</div>
+
+<h2>Dink to PDF</h2>
+<ul>
+
+    <li>@Model.DataGeracao</li>
+</ul>
+
+<p><b>Características do Cartão Banco do Brasil S.A. </b></p>
+<p>
+    O Cartão Banco do Brasil S.A., de uso doméstico e/ou internacional,
+    é um instrumento de pagamento que pode ser utilizado para transações
+    de pagamento de bens e serviços em estabelecimentos
+    comerciais ou na internet, pagamento de contas, saques/retiradas em espécie e financiamentos
+</p>
+
+<p>
+    O cartão poderá possuir a(s) Função (ões) Crédito, Débito, Bancária; Financiamento Rural e/ou Crediário Débito, a(s) qual (is) será (ão) escolhidas pelo cliente no momento da contratação de determinado produto ou serviço ofertado pelo Banco.
+</p>
+<p>
+    O cartão será identificado por umas das seguintes Bandeiras: Visa, Mastercard, American Express ou Elo.
+</p>
+
+<p><b>Procedimentos para contratação</b></p><br />
+<p>
+    A contratação e escolha do Cartão podem ser feita nas agências do Banco do Brasil com assinatura de próprio punho na Proposta de Adesão, ou pela internet, TAA e CABB, exclusivamente para clientes, mediante uso de senha pessoal. As alterações de limites e modalidades estão dispensadas de nova pactuação contratual
+</p>
+
+
+
+
+
+
+@{
+    var urlAxl = $"{@Model.UrlBase}/Assets/Axl_rose_in_israel.jpg";
+}
+<p>@urlAxl</p>
+<img src="@Model.UrlBase//Assets/Axl_rose_in_israel.jpg" />
+<img src="@urlAxl" />
+<p>
+    O grupo foi formado no início de 1985 pelos membros do
+    <a title="Hollywood Rose" href="/wiki/Hollywood_Rose">Hollywood Rose</a>
+    <a title="Axl Rose" href="/wiki/Axl_Rose">Axl Rose</a> (vocais) e
+    <a title="Izzy Stradlin" href="/wiki/Izzy_Stradlin">Izzy Stradlin</a>
+    (guitarra rítmica); e membros do <a title="L.A. Guns" href="/wiki/L.A._Guns">L.A. Guns</a>
+    <a title="Tracii Guns" href="/wiki/Tracii_Guns">Tracii Guns</a> (guitarra solo), <a title="Ole Beich" href="/wiki/Ole_Beich">Ole Beich</a> (baixo) e <a title="Robbie Gardner" class="mw-redirect" href="/wiki/Robbie_Gardner">Robbie Gardner</a> (bateria). A nova banda criou o seu nome a partir da combinação de dois dos nomes dos membros do grupo.
+    Depois de pouco tempo (várias fontes indicam que apenas dois ou três <i>shows</i>
+    foram feitos com os integrantes Guns, Beich &amp; Gardner), o baixista Ole Beich foi
+    substituído por <a title="Duff McKagan" href="/wiki/Duff_McKagan">Duff McKagan</a>,
+    enquanto a falta de Tracii Guns nos ensaios levou à sua substituição por
+    <a title="Slash" href="/wiki/Slash">Slash</a>.
+</p>
+<p>
+    Slash tinha tocado com McKagan no <a title="Road Crew" href="/wiki/Road_Crew">Road Crew</a> e com Stradlin durante um curto período no Hollywood Rose. A nova formação se reunira rapidamente, mas, pouco antes de embarcar em uma <a title="Turnê" href="/wiki/Turn%C3%AA">turnê</a> curta de <a title="Sacramento (Califórnia)" href="/wiki/Sacramento_(Calif%C3%B3rnia)">Sacramento</a>, na <a title="Califórnia" href="/wiki/Calif%C3%B3rnia">Califórnia</a>, para <a title="Seattle" href="/wiki/Seattle">Seattle</a>, em <a title="Washington" href="/wiki/Washington">Washington</a>, o baterista Rob Gardner saiu e foi substituído por um amigo de Slash, <a title="Steven Adler" href="/wiki/Steven_Adler">Steven Adler</a> (que também era do Road Crew). A banda, que continuou a ser chamada Guns N' Roses, mesmo depois da partida de Tracii Guns, estabeleceu a sua primeira formação estável até o chamado "Hell Tour".
+</p>
+<p>
+    A estreia nos palcos da nova formação aconteceu em <a title="6 de Junho" class="mw-redirect" href="/wiki/6_de_Junho">6 de Junho</a> de <a title="1986" href="/wiki/1986">1986</a>, no Troubador, em <a title="Hollywood" href="/wiki/Hollywood">Hollywood</a>, para cerca de 150 pessoas. Após isso, a banda seguiu para <a title="Seattle" href="/wiki/Seattle">Seattle</a>, onde teve a sua turnê de estreia, conhecida por Hell Tour. No caminho entre <a title="Los Angeles" href="/wiki/Los_Angeles">Los Angeles</a> e <a title="Seattle" href="/wiki/Seattle">Seattle</a>, a <a title="Van" href="/wiki/Van">van</a> onde viajavam quebrou, não restando alternativa a não ser abandonar o veículo e pedir <a title="Carona" class="mw-disambig" href="/wiki/Carona">carona</a>. Com isso, a banda demorou mais de dois dias para chegar, atrasando seu primeiro compromisso em Seattle e causando, como consequência, o cancelamento da turnê inicial do Guns N' Roses pelos Estados Unidos, fazendo com que os membros da banda tivessem que vender parte do equipamento para voltar para casa.
+</p>
+<p>
+    Em 1986, contornando as dificuldades, gravaram um <a title="Extended play" href="/wiki/Extended_play">EP</a> (disco de menor duração) com quatro músicas. O nome do disco, lançado de forma <a title="Gravadora independente" href="/wiki/Gravadora_independente">independente</a>, era <i><a title="Live ?!*@@ Like a Suicide" href="/wiki/Live_%3F!*@@_Like_a_Suicide">Live ?!*@@ Like a Suicide</a></i>, composto por quatro faixas de <a title="Demo (música)" href="/wiki/Demo_(m%C3%BAsica)">fitas demo</a> da banda com o ruído do público sobreposto. Continha <i><a title="Versão cover" href="/wiki/Vers%C3%A3o_cover">covers</a></i> do <a title="Rose Tattoo" href="/wiki/Rose_Tattoo">Rose Tattoo</a> ("<a title="Nice Boys" href="/wiki/Nice_Boys">Nice Boys</a>") e do <a title="Aerosmith" href="/wiki/Aerosmith">Aerosmith</a> ("<a title="Mama Kin" href="/wiki/Mama_Kin">Mama Kin</a>"), juntamente com duas composições originais: "Reckless Life" e "Move to the City", ambas coescritas pelo membro fundador do Hollywood Rose, <a title="Chris Weber" href="/wiki/Chris_Weber">Chris Weber</a>.
+</p>
